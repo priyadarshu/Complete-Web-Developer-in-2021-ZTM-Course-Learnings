@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning about form tags</title>
-</head>
-<body>
+    <style>
+      li {
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
     <form>
-        <!--Form takes methods GET and POST , 
+      <!--Form takes methods GET and POST , 
             action = "action.php" -> like we can the run certain scripts,
            when the submit button is clicked-->
-        First name : <input type="text" name="firstName" id=""><br> 
-        Last name : <input type="text" name="lastName" id=""><br>
-        Email is :  <input type="email" name="emailID" id=""><br>
-        Password : <input type="password" name="password" id="" ><br>
-        Gender : <br>
-        <input type="radio" name="gender" id="">Male<br>
-        <input type="radio" name="gender" id="">Female<br>
-        <input type="radio" name="gender" id="">Others<br>
-        Birthday : <input type="date" name="birthday" id="">   <br>
-        Pets I love : <br>
-        <input type="checkbox" name="dogs" id="">Dog <br>
-        <input type="checkbox" name="cats" id="">Cat <br>
-        <input type="checkbox" name="others" id="">Other <br>
-        Technologies I love to work with : <br>
-        <select name="techs" id="">
-            <option value="react">React</option>
-            <option value="html">HTML</option>
-            <option value="css">CSS</option>
-            <option value="javascript">JavaScript</option>
-            <option value="flutter">Flutter</option>
-        </select>
+      First name : <input type="text" name="firstName" id="" /><br />
+      Last name : <input type="text" name="lastName" id="" /><br />
+      Email is : <input type="email" name="emailID" id="" /><br />
+      Password : <input type="password" name="password" id="" /><br />
+      Gender : <br />
+      <input type="radio" name="gender" id="" />Male<br />
+      <input type="radio" name="gender" id="" />Female<br />
+      <input type="radio" name="gender" id="" />Others<br />
+      Birthday : <input type="date" name="birthday" id="" /> <br />
+      Pets I love : <br />
+      <input type="checkbox" name="dogs" id="" />Dog <br />
+      <input type="checkbox" name="cats" id="" />Cat <br />
+      <input type="checkbox" name="others" id="" />Other <br />
+      Technologies I love to work with : <br />
+      <select name="techs" id="">
+        <option value="react">React</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="flutter">Flutter</option>
+      </select>
 
-        <input type="submit" value="Register">
-        <input type="reset" value="Reset">
+      <input type="submit" value="Register" />
+      <input type="reset" value="Reset" />
     </form>
     <!--?
 firstName=Priyadarshini
@@ -44,7 +49,5 @@ firstName=Priyadarshini
 &birthday=2020-12-12
 &cats=on
 &techs=css-->
-</body>
-
+  </body>
 </html>
-
