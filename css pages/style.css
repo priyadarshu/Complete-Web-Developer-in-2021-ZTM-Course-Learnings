@@ -2,7 +2,28 @@
 Selector{
     property:value;
 }*/
+/*
+.class
+#id
+* -> all elements
 
+element
+element, element
+
+element element -> all the element2 inside the 1st element
+element > element -> the element2 is the child of the 1st element
+element + element -> all the element2 after the 1st element
+
+:hover
+:last-child
+:first-child
+!important
+Specificity, Importance, Source Order
+Check specificity calculator
+*/
+*{
+  text-align:right;
+}
 body {
   background-image: url(https://images.unsplash.com/photo-1608309082424-23fccff44797?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80);
   background-size: cover;
@@ -19,4 +40,20 @@ h2 {
 li {
   list-style: none;
   display: inline-block;
+}
+.webtext{
+  border:5px dashed red;
+}
+.active{
+  color: #780866 !important;
+}
+p{
+  color:pink;
+}
+#div1{
+  background: rgba(0, 0, 255, 0.2);
+}
+
+.div2:last-child{
+  border:5px solid  #000000;
 }
