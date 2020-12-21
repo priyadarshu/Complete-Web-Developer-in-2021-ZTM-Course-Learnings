@@ -1,0 +1,34 @@
+h2{
+    color: blue;
+
+}
+.boxmodel{
+    border:5px solid red;
+    display: inline-block;
+}
+.boxmodel1{
+    border:5px solid red;
+    display: inline-block;
+    /*padding:20px;all the sides */
+    padding: 5px 20px 5px 20px; /*top  right bottom left*/
+   /* padding: 5px 20px; topbottom rightleft*/
+
+    /*margin: 20px; all sides 
+    margin: 0px 20px 0px 20px; top  right bottom left*/
+    margin: 0px 20px; /* topbottom rightleft*/
+    width: 100px;
+    height: 55px;
+}
+p{
+    color:violet;
+    font-size: 20px;
+}
+
+div:last-child{
+    color: teal;
+    font-size: 2rem; /*times relative to the size of the root element*/
+}
+
+span{
+    font-size: 5em; /* times of the size of the parent element, here -> 20*5=100px */
+}

@@ -33,10 +33,20 @@ h2 {
   color: #780802;
   text-align: center;
  /* border: 5px solid purple; */
-  border: 5px solid rgba(0, 114, 34, 0.7);
+  border: 5px solid rgba(0, 114, 34, 0.7); /*borderwidth  decoration color*/
   cursor: pointer;
 }
 
+p{
+  text-transform: capitalize;
+  line-height: 5px;
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 180%;
+  /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+  font-family: 'Poiret One', cursive;
+}
 li {
   list-style: none;
   display: inline-block;
@@ -47,13 +57,26 @@ li {
 .active{
   color: #780866 !important;
 }
-p{
-  color:pink;
-}
+
 #div1{
   background: rgba(0, 0, 255, 0.2);
 }
 
 .div2:last-child{
   border:5px solid  #000000;
+}
+
+img{
+  
+  float: left;
+  
+}
+footer{
+  clear: both;
+  text-align: center;
+}
+
+testsizevariance{
+  font-size: 20px;
+  
 }
