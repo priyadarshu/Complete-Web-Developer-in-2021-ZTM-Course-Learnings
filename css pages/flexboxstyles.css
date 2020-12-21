@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -10,9 +14,21 @@ h1{
     border-right: 2px solid pink;
     width: 400px;
     text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+    /*-moz-box-shadow: 4px 4px 5px #888888;     mozilla
+    -ms-box-shadow: 4px 4px 5px #888888;        internet explorer
+    -webkit-box-shadow: 4px 4px 5px #888888;    safari
+    -o-box-shadow: 4px 4px 5px #888888;         opera mini
+    
+    */
+    margin-top: 10px;
 }
 img{
     width: 450px;
     height: 300px;
     margin: 10px;
+    transition : all 0.6s;
+}
+img:hover{
+    transform: scale(1.1);
 }
