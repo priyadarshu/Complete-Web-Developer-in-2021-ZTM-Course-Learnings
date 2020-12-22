@@ -1,0 +1,12 @@
+.btn-success{
+    background-color: gray;
+}
+.btn-success:hover{
+    background-color: black;
+}
+
+.col{
+    background-color: gray;
+    border: 2px solid black;
+    margin-top:20px;
+}
